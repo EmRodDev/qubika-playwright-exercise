@@ -1,0 +1,23 @@
+{
+    "loginPage":{
+        "emailInput":"//input[@type='email']",
+        "passwordInput":"//input[@type='password']",
+        "authenticateButton":"//button[@type='submit']"
+    },
+    "dashboardPage":{
+        "dashboardButton":"//a[@href='#/dashboard' and contains(@class, 'navbar-brand')]",
+        "categoryTypeButton":"//a[@href='#/category-type' and contains(@class, 'nav-link')]"
+    },
+    "categoryTypePage":{
+        "addButton":"//button[@class='btn btn-primary']",
+        "paginationButton":"//span[text()='Next']/parent::a/parent::li/preceding::li[1]",
+        "form":{
+            "categoryNameInput":"//input[@formcontrolname='name']",
+            "isSubcategoryInput":"//input[@id='customCheckMain']/following::label",
+            "parentCategoryNameInput":"//div[@role='combobox']/input",
+            "parentCategoryOptionsDiv":"//div[contains(@class,'ng-dropdown')]//div[contains(@class,'ng-option')][1]",
+            "acceptButton":"//button[@type='submit']"
+        }
+    }
+
+}
